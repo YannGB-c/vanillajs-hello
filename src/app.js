@@ -16,10 +16,10 @@ function ExcusesGenerator() {
   console.log(randomwhos, randomverbs, randomwhats, randomtiming);
 };
 
-// Escuchar el evento "click" en el botón
+
 document
   .getElementById("generate-button")
   .addEventListener("click", ExcusesGenerator);
 
-// Llamar a la función una vez al cargar la página para que no esté vacía.
+// Llamar a la función
 ExcusesGenerator();
